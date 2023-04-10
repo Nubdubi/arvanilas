@@ -31,8 +31,13 @@ app.use(express.json());
 
 //Routes
 app.use("/", express.static(path.join(__dirname + "/src")));
+app.use(
+  "/navermap",
+  express.static(path.join(__dirname + "/src/screens/navermap"))
+);
+
 // app.use("/home", home);
 
 //coneection
-const port = 9001;
+const port = 5000;
 app.listen(port, () => console.log(`listen ${port}`));
