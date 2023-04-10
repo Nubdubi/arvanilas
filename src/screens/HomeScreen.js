@@ -1,4 +1,4 @@
-import data from "../data.js";
+const data = require("../data.js");
 // 이게 에러남
 const HomeScreen = {
   render: () => {
