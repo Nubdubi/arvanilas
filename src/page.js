@@ -1,9 +1,9 @@
 // import Error404Screen from "./screens/Error404Screen.js";
 // import HomeScreen from "./screens/HomeScreen.js";
 // import ProductScreen from "./screens/ProductScreen.js";
-const Error404Screen = require("./screens/Error404Screen.js");
-const HomeScreen = require("./screens/HomeScreen.js");
-const ProductScreen = require("./screens/ProductScreen.js");
+var Error404Screen = require("./screens/Error404Screen.js");
+var HomeScreen = require("./screens/HomeScreen.js");
+var ProductScreen = require("./screens/ProductScreen.js");
 import { parseRequestUrl } from "./util/utils.js";
 
 const routes = {
