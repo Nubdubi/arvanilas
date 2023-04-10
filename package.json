@@ -6,6 +6,7 @@
   "homepage": "./",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "live-server src --verbose",
     "start": "live-server src --verbose"
   },
   "author": "",
